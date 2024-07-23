@@ -1,0 +1,82 @@
+
+h1 {
+    background-color: bisque;
+    padding: 0;
+    
+}
+
+*{
+    font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+        box-sizing: border-box;
+}
+body {
+    background-color: #0358ea2c;
+    margin:0 auto;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;;
+}
+   
+div{
+    color:#0091ff
+    }
+ 
+
+
+header {
+    background-color: #054aec5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+   
+   
+.container {
+width: 960px;
+margin: 0 auto;
+
+
+}
+
+nav {
+    height: 30px;
+background-color: #d2c6f15c;
+
+}
+.headTitle{
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/best-fall-movies-1659459329.jpg?crop=0.937xw:1.00xh;0.0327xw,0&resize=1200:*');
+    height: 250px;
+}
+
+.myCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.searchButton{
+    border-radius: 20px;
+
+    .text {
+        border-radius: 20px;
+    }
+}
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ft{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(242, 242, 243);
+    font-weight: bold;
+}
